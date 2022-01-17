@@ -1,0 +1,142 @@
+@import url("http://fonts.googleeapis.com/css?family=Poppins:300,400,500,600,700,800,900&display");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(68, 39, 10);
+    font-family: Arial;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #963f00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(rgba(44, 30, 0, 0.301),rgba(44, 23, 0, 0.308)), url('images/felps.png');
+    font-family: Roboto;
+    text-align: center;
+    display: grid;
+    place-items: center; 
+}
+header{
+    text-align: center;
+    background-color: #6e6a52;
+    color: #fdfdfd;
+    padding-top: 8px;
+    width: 90%;
+    height: 15vh;
+}
+header h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+header p{
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*-- experience --*/
+main {
+    width: 60vw;
+    padding: 30px 20px;
+    justify-content: center;
+    margin-left: 270px;
+    margin-right: 250px;
+}
+article {
+    background-color: rgb(65, 44, 24);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10px;
+    align-content: center;
+}
+.experience-box{
+   width: 70%;
+   margin: auto;
+   display: center;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: left; 
+   color: #ffffff
+}
+.experience{
+    flex-basis: 50%;
+    text-align: center;
+}
+.experience-img{
+    flex-basis: 50%;
+    margin: auto;
+    display: center;
+}
+.experience-img img{
+    width: 80%;
+}
+.experience h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
+
+/*--------footer-------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(48, 29, 9);
+    color: #fff;
+    position: bottom;
+    margin: 0px;
+}
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+  }
