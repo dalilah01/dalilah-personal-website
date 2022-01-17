@@ -101,7 +101,6 @@ tr:nth-child(odd){
 tr:nth-child(odd):hover{
     background-color: rgb(171, 154, 80);
     color: #ffffff;
-     
 }
 tr:nth-child(even){
     background-color: #f3a290;
@@ -137,5 +136,4 @@ tr:nth-child(even):hover{
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 100%;
-    }
 }
