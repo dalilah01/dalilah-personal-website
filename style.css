@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("image/myself.jpeg") no-repeat center;
+    background: url("images/brown.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -202,7 +202,7 @@ section .title::after{
 }
 
 /* biodata section styling */
-}
+
 .biodata, .services{
     font-family: 'Poppins', sans-serif;
 }
@@ -291,7 +291,7 @@ section .title::after{
 }
 .gallery .gallery-content .card i{
     font-size: 50px;
-    color: crimson);
+    color: crimson;
     transition: color 0.3s ease;
 }
 .gallery .gallery-content .card:hover i{
