@@ -16,7 +16,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: rgb(235, 187, 155);
+    background: rgb(87, 64, 46);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(141, 54, 54);
@@ -72,7 +72,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgb(245, 205, 155);
+    color: rgb(199, 148, 87);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -80,7 +80,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background-color: rgb(241, 224, 203);
+    background-color: rgb(211, 179, 135);
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -90,7 +90,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(228, 215, 183);
+    background: rgb(92, 82, 58);
 }
 .navbar .max-width{
     display: flex;
@@ -103,7 +103,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(219, 190, 152);
+    color: rgb(121, 99, 72);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -195,7 +195,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(218, 188, 150);
+    color: rgb(100, 76, 45);
     font-weight: 500;
 
 
@@ -233,7 +233,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .biodata .biodata-content .right .text span{
-    color: rgb(223, 194, 158);
+    color: rgb(87, 65, 39);
 }
 .biodata- .biodata-content .right p{
     text-align: justify;
