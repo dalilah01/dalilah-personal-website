@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["From Class IM1105F", "My Matrix Number is 2019238422"],
+        strings: ["From Class IM1105F", "My Matrix Number is 2019418928"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
