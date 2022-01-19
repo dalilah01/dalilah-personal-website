@@ -362,21 +362,6 @@ section .title::after{
     top: 0;
     background: rgb(247,223, 143);
 }
-.experience-content .right .HTML::before{
-    width: 80%;
-}
-.experience-content .right .CSS::before{
-    width: 60%;
-}
-.experience-content .right .JavaScript::before{
-    width: 50%;
-}
-.experience-content .right .PowerPoint::before{
-    width: 90%;
-}
-.experience-content .right .Canva::before{
-    width: 85%;
-}
 
 /* family section styling */
 .family .title::after{
